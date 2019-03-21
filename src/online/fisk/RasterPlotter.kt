@@ -11,7 +11,7 @@ fun main(args: Array<String>) {
             else -> 1
         }
         val isochronal = when {
-            args.size == 3 && args[2].toString() == "true" -> true
+            args.size == 3 && args[2] == "-iso" -> true
                 else -> false
         }
         RasterPlotter().process(args[0], threshold, isochronal)
