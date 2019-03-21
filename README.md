@@ -12,4 +12,4 @@ To use with [DitherKt](https://github.com/fiskurgit/DitherKt) where `jrun` is an
 
 `jrun DitherCL.jar image.png 8x8Bayer | tail -1 | (read dithered; jrun RasterPlotter.jar "$dithered")`
 
-![Sample](test_anna_8x8Bayer.png)
+![Example](example_anna.jpg)
